@@ -1,0 +1,26 @@
+# Node / React
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Python / Backend
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+env/
+
+# Build outputs
+frontend/build/
+dist/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
