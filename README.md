@@ -1,5 +1,5 @@
 # SANJAYKANTH M
-###AI/ML Engineer
+### AI/ML Engineer
 Coimbatore, Tamil Nadu | +91 9585445611 | m.sanjaykanth5@gmail.com
 LinkedIn: https://linkedin.com/in/sanjaykanth-m-1b6581290 | GitHub: https://github.com/sanjay-0506
 
