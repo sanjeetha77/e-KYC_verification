@@ -30,7 +30,8 @@ s = URLSafeTimedSerializer(app.config['SECRET_KEY'])
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # --- [ADDED] MongoDB Connection ---
-client = MongoClient('mongodb://localhost:27017/')
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb://localhost:27017/")
+client = MongoClient(MONGO_URL)
 db = client['securekyc_db']
 users_collection = db['users']
 
